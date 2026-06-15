@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Booking - Royal Palace</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial;
+            color:white;
+
+            
+            background: url("picture/7e54eaaa-0053-4ac3-840a-14361e34a87a.jpg") center/cover no-repeat fixed;
+
+            height:100vh;
+        }
+
+        .navbar{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:15px 40px;
+            background: rgba(0,0,0,0.7);
+            position:fixed;
+            width:100%;
+            top:0;
+        }
+
+        .logo{
+            color:rgb(179, 151, 77);
+            font-size:22px;
+            font-weight:bold;
+        }
+
+        .navbar ul{
+            list-style:none;
+            display:flex;
+            gap:25px;
+            margin-right: 100px;
+        }
+
+        .navbar ul li a{
+            text-decoration:none;
+            color:white;
+        }
+
+        .navbar ul li a:hover{
+            color:rgb(150, 132, 73);
+        }
+
+        .section{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .box{
+            background: rgba(0,0,0,0.6);
+            padding:40px;
+            border-radius:15px;
+            width:300px;
+        }
+
+        .box h1{
+            color:rgb(156, 114, 75);
+            margin-bottom:20px;
+        }
+
+        .box input{
+            width:90%;
+            padding:10px;
+            margin:10px 0;
+            border:none;
+            border-radius:5px;
+        }
+
+        .box button{
+            width:95%;
+            padding:10px;
+            background:rgb(102, 92, 3);
+            border:none;
+            border-radius:5px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        .box button:hover{
+            background:orange;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="logo">ROYAL PALACE</div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<div class="section">
+    <div class="box">
+        <h1>Book Your Stay</h1>
+
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="date">
+            <input type="number" placeholder="Guests">
+            <button type="submit">Book Now</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px 30px;
+        }
+
+        .navbar .logo {
+            color: gold;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            margin-right: 100px;
+        }
+
+        .navbar ul li {
+            margin-left: 20px;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        body {
+            background-image: url("picture/contact-banner.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .section {
+            text-align: center;
+            color: white;
+            padding: 80px 20px;
+        }
+
+        .section h1 {
+            font-size: 50px;
+            color: gold;
+            margin-bottom: 30px;
+        }
+
+        .section p {
+            font-size: 20px;
+            margin: 10px 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 300px;
+            padding: 12px;
+            margin: 10px;
+            border: none;
+            border-radius: 8px;
+            outline: none;
+        }
+
+        .contact-form button {
+            padding: 12px 25px;
+            background: gold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .contact-form button:hover {
+            background: orange;
+        }
+
+        .location {
+            margin-top: 30px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div class="logo">ROYAL PALACE</div>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</div>
+
+<div class="section">
+    <h1>Contact Us</h1>
+
+    <p>📞 +91 XXXXX XXXXX</p>
+    <p>✉️ info@royalpalace.com</p>
+
+    <div class="location">
+        <p> Royal Palace Hotel, India</p>
+    </div>
+
+    <div class="contact-form">
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea rows="4" placeholder="Your Message"></textarea><br>
+        <button>Send Message</button>
+    </div>
+</div>
+
+</body>
+</html>
